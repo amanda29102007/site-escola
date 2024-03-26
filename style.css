@@ -17,3 +17,8 @@ background-color: var(--branco);
 
 
 
+.abas-textos{
+background-color: var(--cor-do-fundo);
+padding: 40px
+border-raus: 0 0
+}
