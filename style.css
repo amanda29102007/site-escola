@@ -6,39 +6,39 @@
     --botao-inativo :  rgba ( 58 ,  55 , 94 ,  0,5 );
     --texto-fundo :  rgba ( 58 ,  55 ,  94 ,  0.3 );
 }
-@importar  url ( 'https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap' );
+@importar  url ('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 corpo {
-    cor de fundo :  var ( -cor-de-fundo );
-    cor :  var ( -branco );
-    família de fontes :  'Chakra Petch' , sem serifa;
+    cor de fundo :  var (-cor-de-fundo);
+    cor : var (-branco);
+    família de fontes:  'Chakra Petch' , sem serifa;
 }
 . conteúdo-principal {
-    exibição : flexível;
-    direção flexível : coluna;
-    justificar-conteúdo : centro;
-    alinhar itens : centro;
-    largura máxima :  1200 px ;
-    largura :  100 % ;
-    margem :  0 automático;
+    exibição: flexível;
+    direção flexível: coluna;
+    justificar-conteúdo; centro;
+    alinhar itens; centro;
+    largura máxima;  1200 px ;
+    largur: 100%;
+    margem: 0 automático;
 }
-. título-principal {
-    alinhamento de texto : esquerda;
-    largura :  100 % ;
-    tamanho da fonte :  32 px ;
+. título-principal{
+    alinhamento de texto; esquerda;
+    largura: 100%;
+    tamanho da fonte; 32px;
 }
-. extensão título-principal  {
-    cor :  var ( -verde );
+. extensão título-principal {
+    cor; var(-verde);
 }
 . botão {
-    família de fontes :  'Chakra Petch' , sem serifa;
-    cor de fundo :  var ( -botao-inativo );
-    cor :  var ( -branco );
-    exibição : flexível;
-    justificar-conteúdo : centro;
-    preenchimento :  1 em ;
-    tamanho da fonte :  18 px ;
-    alinhar itens : centro;
-    largura :  100 % ;
+    família de fontes; "Chakra Petch" , sem serifa;
+    cor de fundo; var(-botao-inativo);
+    cor; var(-branco);
+    exibição; flexível;
+    justificar-conteúdo; centro;
+    preenchimento; 1 em;
+    tamanho da fonte;  18px;
+    alinhar itens; centro;
+    largura; 100%;
     border-bottom :  var sólido de 4 px ( --botao-ativo );
     borda esquerda :  var sólida de 2 px ( --botao-ativo );
     borda direita :  var sólido de 2 px ( --botao-ativo );
